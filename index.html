@@ -4,12 +4,171 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomeWork</title>
+    <title>Orar USARB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo_usarb_new.png" type="image/x-icon">
+
 </head>
+
 <body>
-    <img src="image/1.jpg" width="500px"><img src="image/2.jpg" width="50%"><br>
-    <h1>Information about this cars</h1><br>
-    <a href="https://exportfrom.jp/blog-reviews-updates/the-top-5-jdm-cars-of-all-time" target="_blank"><img src="image/3.jpg" alt="The Mazda Rx-7" title="The top 5 cars of all time"></a>
-    <a href="second-page.html"><h2>Next Page</h2></a>
+    <div class="totul">
+        <div class="first">
+        <div class="den">Orarul Cursurilor</div>
+        <ul class="options">
+            <a href="#"><li class="option">Grupe</li></a>
+            <a href="#"><li class="option">Profesori</li></a>
+            <a href="#"><li class="option">Aule</li></a>
+        </ul>
+        
+        <ul class="groups">
+            <a href="#"><li class="group">202</li></a>
+            <a href="#"><li class="group">203</li></a>
+            <a href="#"><li class="group">031</li></a>
+            <a href="#"><li class="group">123</li></a>
+        </ul>
+    
+         <select id="dayselect" class="uk-select uk-margin-top">
+         <option value="-1">ziua</option>
+         <option value="1">Luni</option>
+         <option value="2">Marti</option>
+         <option value="3">Miercuri</option>
+         <option value="4">Joi</option>
+         <option value="5">Vineri</option>
+         <option value="6">Sambata</option>
+         <option value="7">Duminica</option> 
+        </select>
+
+         <select id="weekselect" class="uk-select uk-margin-top">
+         <option value="-1">saptamana</option>
+         <option value="1">1(29.08.22-04.09.22)</option>
+         <option value="2">2(05.09.22-11.09.22)</option>
+         <option value="3">3(12.09.22-18.09.22)</option>
+         <option value="4">4(19.09.22-25.09.22)</option>
+         <option value="5">5(26.09.22-02.10.22)</option>
+         <option value="6">6(03.10.22-09.10.22)</option>
+         <option value="7">7(10.10.22-16.10.22)</option> 
+        </select>
+          
+        <select id="semestruselect"class="uk-select uk-margin-top">
+         <option value="-1">semestru</option>
+         <option value="1">1</option>
+         <option value="2">2</option>
+        </select>
+
+          <div class="table">
+            <div class="green"></div>
+            <div class="green">1</div>
+            <div class="green">2</div>
+            <div class="green">3</div>
+            <div class="green">4</div>
+            <div class="green">5</div>
+            <div class="green">6</div>
+            <div class="green">7</div>
+            <div class="green">L</div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="green">Ma</div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="green">Mi</div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="green">J</div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="green">V</div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="green">S</div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="green">D</div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+            <div class="nimic"></div>
+        </div>
+        <div class="types">
+            <ul class="types1">
+                <li class="typevar">P - Prelegere</li>
+                <li class="typevar">S - Seminar</li>
+                <li class="typevar">L - Laborator</li>
+                <li class="typevar">PC - Proiect de Curs</li>
+            </ul>
+            <ul class="types2">
+                <li class="typevar">EP - Evaluare periodică</li>
+                <li class="typevar">C - Consultație</li>
+                <li class="typevar">E - Examinare</li>
+                <li class="typevar">R - Reexaminare</li>
+            </ul>
+        </div>
+    
+           <div class="sfarsit">
+                <a href="#"><div id="downl">
+                    <div class="dtext">Descarcă orar</div>
+                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="file-pdf"><rect fill="none" stroke="#FFF" width="13" height="17" x="3.5" y="1.5"></rect><path stroke="#FFF" d="M14.65 11.67c-.48.3-1.37-.19-1.79-.37a4.65 4.65 0 0 1 1.49.06c.35.1.36.28.3.31zm-6.3.06l.43-.79a14.7 14.7 0 0 0 .75-1.64 5.48 5.48 0 0 0 1.25 1.55l.2.15a16.36 16.36 0 0 0-2.63.73zM9.5 5.32c.2 0 .32.5.32.97a1.99 1.99 0 0 1-.23 1.04 5.05 5.05 0 0 1-.17-1.3s0-.71.08-.71zm-3.9 9a4.35 4.35 0 0 1 1.21-1.46l.24-.22a4.35 4.35 0 0 1-1.46 1.68zm9.23-3.3a2.05 2.05 0 0 0-1.32-.3 11.07 11.07 0 0 0-1.58.11 4.09 4.09 0 0 1-.74-.5 5.39 5.39 0 0 1-1.32-2.06 10.37 10.37 0 0 0 .28-2.62 1.83 1.83 0 0 0-.07-.25.57.57 0 0 0-.52-.4H9.4a.59.59 0 0 0-.6.38 6.95 6.95 0 0 0 .37 3.14c-.26.63-1 2.12-1 2.12-.3.58-.57 1.08-.82 1.5l-.8.44A3.11 3.11 0 0 0 5 14.16a.39.39 0 0 0 .15.42l.24.13c1.15.56 2.28-1.74 2.66-2.42a23.1 23.1 0 0 1 3.59-.85 4.56 4.56 0 0 0 2.91.8.5.5 0 0 0 .3-.21 1.1 1.1 0 0 0 .12-.75.84.84 0 0 0-.14-.25z"></path></svg>
+                </div></a>
+                <a href="#"><div id="stud">
+                    <img class="stdimage" src="http://orar.usarb.md/img/student3.png" alt="">
+                    <div id="studtxt">Student</div>
+                </div></a>
+                <a href="#"><div id="ex">
+                    <div class="dtext">Examene</div>
+                    <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="print"><polyline fill="none" stroke="#FFF" points="4.5 13.5 1.5 13.5 1.5 6.5 18.5 6.5 18.5 13.5 15.5 13.5"></polyline><polyline fill="none" stroke="#FFF" points="15.5 6.5 15.5 2.5 4.5 2.5 4.5 6.5"></polyline><rect stroke="#FFF" fill="none" stroke="#FFF" width="11" height="6" x="4.5" y="11.5"></rect><rect stroke="#FFF" width="8" height="1" x="6" y="13"></rect><rect stroke="#FFF" width="8" height="1" x="6" y="15"></rect></svg>
+                </div></a>
+            </div>
+            <div class="warn">Orarul nu lucrează între 23:00 și 5:00</div>
+    </div>       
+    <div class="doi">
+        <div id="table2">
+            <div class="green"> 8:00 <br> 9:30</div>
+            <div class="nimic"></div>
+            <div class="green"> 9:45 <br> 11:15</div>
+            <div class="nimic"></div>
+            <div class="green"> 11:30 <br> 13:00 </div>
+            <div class="nimic"></div>
+            <div class="green"> 13:15 <br> 14:45 </div>
+            <div class="nimic"></div>
+            <div class="green"> 15:00 <br> 16:30 </div>
+            <div class="nimic"></div>
+            <div class="green"> 16:45 <br> 18:15 </div>
+            <div class="nimic"></div>
+            <div class="green"> 18:30 <br> 20:00 </div>
+            <div class="nimic"></div>
+        </div>
+    </div>
 </body>
 </html>
